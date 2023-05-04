@@ -1,0 +1,362 @@
+:root {
+  --brand-color1: #ffffff;
+  --brand-color2: #4d5ae5;
+  --brand-color3: #2e2f42;
+  --brand-color4: #434455;
+  --brand-color5: #e7e9fc;
+  --brand-color6: #f4f4fd;
+  --brand-color7: #404bbf;
+  --brand-font-weight1: 800;
+  --brand-font-weight2: 500;
+  --brand-font-weight3: 700;
+  --brand-font-weight4: 400;
+  --brand-font-size1: 16px;
+  --brand-font-size2: 18px;
+  --brand-font-size3: 20px;
+  --brand-font-size4: 36px;
+  --brand-font-size-title: 56px;
+}
+
+/* Main Page */
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--brand-color1);
+  font-size: var(--brand-font-size1);
+  font-weight: var(--brand-font-weight4);
+  color: var(--brand-color4);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==========HEADER========== */
+.page-header {
+  /* Top line bg */
+  display: flex;
+  align-items: center;
+  /* WHITE Header background, team card background */
+  background: var(--brand-color1);
+  /* CORNFLOWER */
+  border-bottom: 1px solid var(--brand-color5);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+.logo-units {
+  font-weight: var(--brand-font-weight1);
+  font-family: "Raleway", sans-serif;
+  font-size: var(--brand-font-size2);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* Web */
+  color: var(--brand-color2);
+  margin-right: 76px;
+}
+
+/* Studio */
+.studio {
+  color: var(--brand-color3);
+}
+
+/* Studio in footer*/
+.foot-studio {
+  color: var(--brand-color6);
+}
+
+/*Menu Nav  */
+.menu-navigation {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.menu-nav-links {
+  font-weight: var(--brand-font-weight2);
+  letter-spacing: 0.02em;
+  color: var(--brand-color3);
+  line-height: 1.5;
+}
+
+.menu-nav-links:hover,
+.menu-nav-links:focus {
+  color: var(--brand-color7);
+}
+
+.adress-contacts {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.link-contacts {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.link-contacts .link {
+  letter-spacing: 0.02em;
+  color: var(--brand-color4);
+}
+
+.link-contacts .link:hover,
+.link-contacts .link:focus {
+  color: var(--brand-color7);
+}
+
+/* Hero Image  */
+.dark-bg {
+  /* Dark-bg */
+
+  background: var(--brand-color3);
+}
+.efsol-title {
+  /* Effective Solutions for Your Business */
+  /* Header 1 */
+
+  font-weight: var(--brand-font-weight3);
+  font-size: var(--brand-font-size-title);
+  line-height: 1.07;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--brand-color1);
+}
+
+/* Button */
+.main-but {
+  background-color: var(--brand-color2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: var(--brand-font-weight2);
+  font-size: var(--brand-font-size1);
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-family: var(--main-font-family);
+  color: var(--brand-color1);
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-text {
+  font-weight: var(--brand-font-weight2);
+  font-size: var(--brand-font-size1);
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-family: var(--main-font-family), sans-serif;
+
+  color: var(--brand-color1);
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-but:hover,
+.main-but:focus {
+  background: var(--brand-color7);
+}
+
+.features-main-title {
+  display: none;
+}
+
+.features-container {
+  display: flex;
+}
+
+.header-three {
+  /* Header 3 */
+  font-weight: var(--brand-font-weight2);
+  font-size: var(--brand-font-size3);
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: var(--brand-color3);
+}
+
+.feature-text {
+  letter-spacing: 0.02em;
+}
+
+.header-two {
+  /* Header 2 */
+  font-weight: var(--brand-font-weight3);
+  font-size: var(--brand-font-size4);
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--brand-color3);
+}
+
+.sect-two-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Section 3 */
+.sect-three-light-bg {
+  /* Light-bg */
+  background-color: var(--brand-color6);
+}
+.sect-three-container {
+  display: flex;
+  align-items: center;
+}
+.list-cards {
+  /* WHITE Header background, team card background*/
+  background: var(--brand-color1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.image-team-card {
+  mix-blend-mode: normal;
+}
+.img-tc-one {
+  background: url(man-with-laptop-presenting-something.jpg);
+}
+
+.img-tc-two {
+  background: url(img-2);
+}
+.img-tc-three {
+  background: url(young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair);
+}
+.img-tc-four {
+  background: url(confident-handsome-guy-posing-against-white-wall);
+}
+
+.profession,
+.app-portfolio {
+  height: 24px;
+  letter-spacing: 0.02em;
+  font-size: var(--brand-font-size1);
+  line-height: 1.5;
+  color: var(--brand-color4);
+}
+
+.foot-box {
+  /* Footer */
+
+  background: var(--brand-color3);
+}
+
+.foot-text {
+  /* Text */
+
+  letter-spacing: 0.02em;
+  color: var(--brand-color6);
+}
+
+/*  ===============Portfolio styles===============   */
+
+.filters {
+  /* Filters */
+  padding: 0px;
+}
+
+.filt-button {
+  /* Filter Btn  */
+
+  background: var(--brand-color6);
+  border: 1px solid var(--brand-color5);
+  border-radius: 4px;
+  color: var(--brand-color2);
+}
+
+.filt-button:hover,
+.filt-button:focus {
+  color: var(--brand-color1);
+  background: var(--brand-color7);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.pr-cards {
+  box-sizing: border-box;
+  background: var(--brand-color1);
+  border: 1px solid var(--brand-color5);
+}
+
+.cards-images {
+  mix-blend-mode: normal;
+}
+
+.im-one {
+  background: url(4074365);
+}
+.im-two {
+  background: url(4);
+}
+.im-three {
+  background: url(tp238-pf-s73-05-mockup);
+}
+
+.im-four {
+  background: url(female-taxi-driver-paying-attention-road);
+}
+.im-five {
+  background: url(2105.w026.n002.440B.p0.440);
+  mix-blend-mode: normal;
+}
+
+.im-six {
+  background: url(charming-short-haired-lady-gray-hat-standing-beside-wall-with-smartphone);
+  mix-blend-mode: normal;
+}
+
+.im-seven {
+  background: url(6418424.jpg);
+}
+.im-eight {
+  background: url(pexels-photo-7262897);
+  mix-blend-mode: normal;
+}
+
+.im-nine {
+  background: url(pexels-chevanon-photography-302897);
+  mix-blend-mode: normal;
+}
