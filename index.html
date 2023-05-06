@@ -20,76 +20,74 @@
 
   <body>
     <!-- Top line -->
-    <header class="page-header container">
-      <div class="container page-header-container">
-        <nav class="page-navigation">
-          <a href="./index.html" class="logo-units link">
-            Web<span class="studio">Studio</span></a
-          >
-          <ul class="list menu-navigation">
-            <li>
-              <a href="./index.html" class="menu-nav-links link">Studio</a>
-            </li>
-            <li>
-              <a href="./portfolio.html" class="menu-nav-links link"
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a href="" class="menu-nav-links link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+    <header class="page-header container page-header-container">
+      <nav class="page-navigation">
+        <a href="./index.html" class="logo-units link">
+          Web<span class="studio">Studio</span></a
+        >
+        <ul class="list menu-navigation">
+          <li>
+            <a href="./index.html" class="menu-nav-links link">Studio</a>
+          </li>
+          <li>
+            <a href="./portfolio.html" class="menu-nav-links link">Portfolio</a>
+          </li>
+          <li>
+            <a href="" class="menu-nav-links link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
 
-        <address class="adress-contacts">
-          <ul class="list link-contacts">
-            <li>
-              <a href="mailto:info@devstudio.com" class="link">
-                info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="link"> +11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
-      </div>
+      <address class="adress-contacts">
+        <ul class="list link-contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link">
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="link"> +11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
     </header>
 
     <main>
       <!-- Image hero -->
-      <section class="dark-bg container">
-        <h1 class="efsol-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="main-but">Order Service</button>
+      <section class="dark-bg">
+        <div class="container image-hero-container">
+          <h1 class="efsol-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="main-but">Order Service</button>
+        </div>
       </section>
 
       <!-- Section 1 -->
       <section>
-        <div class="container">
+        <div class="container sect-one-container">
           <h2 class="features-main-title">Features</h2>
           <ul class="features-container list">
-            <li>
+            <li class="features-container-text">
               <h3 class="header-three">Strategy</h3>
               <p class="feature-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="features-container-text">
               <h3 class="header-three">Punctuality</h3>
               <p class="feature-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="features-container-text">
               <h3 class="header-three">Diligence</h3>
               <p class="feature-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="features-container-text">
               <h3 class="header-three">Technologies</h3>
               <p class="feature-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -132,9 +130,9 @@
 
       <!-- Section 3 -->
       <section class="sect-three-light-bg">
-        <div class="container">
+        <div class="container sect-three-container">
           <h2 class="header-two">Our Team</h2>
-          <ul class="list sect-three-container">
+          <ul class="list container-team-card">
             <li class="list-cards">
               <img
                 src="./images/teamcard-1.jpg"
@@ -142,8 +140,10 @@
                 width="264"
                 class="image-team-card im-tc-one"
               />
-              <h3 class="header-three">Mark Guerrero</h3>
-              <p class="profession">Product Designer</p>
+              <div class="card-content-container">
+                <h3 class="header-three">Mark Guerrero</h3>
+                <p class="profession">Product Designer</p>
+              </div>
             </li>
             <li class="list-cards">
               <img
@@ -152,8 +152,10 @@
                 width="264"
                 class="image-team-card im-tc-two"
               />
-              <h3 class="header-three">Tom Ford</h3>
-              <p class="profession">Frontend Developer</p>
+              <div class="card-content-container">
+                <h3 class="header-three">Tom Ford</h3>
+                <p class="profession">Frontend Developer</p>
+              </div>
             </li>
             <li class="list-cards">
               <img
@@ -162,8 +164,10 @@
                 width="264"
                 class="image-team-card im-tc-three"
               />
-              <h3 class="header-three">Camila Garcia</h3>
-              <p class="profession">Marketing</p>
+              <div class="card-content-container">
+                <h3 class="header-three">Camila Garcia</h3>
+                <p class="profession">Marketing</p>
+              </div>
             </li>
             <li class="list-cards">
               <img
@@ -172,8 +176,10 @@
                 width="264"
                 class="image-team-card im-tc-four"
               />
-              <h3 class="header-three">Daniel Wilson</h3>
-              <p class="profession">UI Designer</p>
+              <div class="card-content-container">
+                <h3 class="header-three">Daniel Wilson</h3>
+                <p class="profession">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -181,8 +187,8 @@
     </main>
 
     <!-- Footer -->
-    <footer class="foot-box container">
-      <div class="container footer-container">
+    <footer class="foot-box">
+      <div class="footer-container">
         <a href="./index.html" class="logo logo-units link">
           Web<span class="foot-studio">Studio</span></a
         >
