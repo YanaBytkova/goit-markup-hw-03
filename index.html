@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -20,36 +21,40 @@
 
   <body>
     <!-- Top line -->
-    <header class="page-header container page-header-container">
-      <nav class="page-navigation">
-        <a href="./index.html" class="logo-units link">
-          Web<span class="studio">Studio</span></a
-        >
-        <ul class="list menu-navigation">
-          <li>
-            <a href="./index.html" class="menu-nav-links link">Studio</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="menu-nav-links link">Portfolio</a>
-          </li>
-          <li>
-            <a href="" class="menu-nav-links link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="page-header">
+      <div class="container page-header-container">
+        <nav class="page-navigation">
+          <a href="./index.html" class="logo-units link">
+            Web<span class="studio">Studio</span></a
+          >
+          <ul class="list menu-navigation">
+            <li>
+              <a href="./index.html" class="menu-nav-links link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="menu-nav-links link"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="" class="menu-nav-links link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="adress-contacts">
-        <ul class="list link-contacts">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link">
-              info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="link"> +11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+        <address class="adress-contacts">
+          <ul class="list link-contacts">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link">
+                info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link"> +11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
@@ -62,8 +67,8 @@
       </section>
 
       <!-- Section 1 -->
-      <section>
-        <div class="container sect-one-container">
+      <section class="sect-one-container">
+        <div class="container">
           <h2 class="features-main-title">Features</h2>
           <ul class="features-container list">
             <li class="features-container-text">
@@ -99,25 +104,25 @@
       </section>
 
       <!-- Section 2 -->
-      <section>
+      <section class="sect-two-container">
         <div class="container">
           <h2 class="header-two">What are we doing</h2>
-          <ul class="sect-two-container list">
-            <li>
+          <ul class="sect-two-list list">
+            <li class="sect-two-cards">
               <img
                 src="./images/img-1.jpg"
                 alt="Design on monitor"
                 width="360"
               />
             </li>
-            <li>
+            <li class="sect-two-cards">
               <img
                 src="./images/img-2.jpg"
                 alt="Open windows on smartphone"
                 width="360"
               />
             </li>
-            <li>
+            <li class="sect-two-cards">
               <img
                 src="./images/img-3.jpg"
                 alt="Smartphone on the front and netbook on the back"
@@ -129,8 +134,8 @@
       </section>
 
       <!-- Section 3 -->
-      <section class="sect-three-light-bg">
-        <div class="container sect-three-container">
+      <section class="sect-three-light-bg sect-three-container">
+        <div class="container">
           <h2 class="header-two">Our Team</h2>
           <ul class="list container-team-card">
             <li class="list-cards">
@@ -188,7 +193,7 @@
 
     <!-- Footer -->
     <footer class="foot-box">
-      <div class="footer-container">
+      <div class="container footer-container">
         <a href="./index.html" class="logo logo-units link">
           Web<span class="foot-studio">Studio</span></a
         >
