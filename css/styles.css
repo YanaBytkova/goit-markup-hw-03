@@ -80,12 +80,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .page-navigation {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-units {
   font-weight: var(--brand-font-weight1);
@@ -153,6 +153,7 @@ img {
   /* Dark-bg */
 
   background: var(--brand-color3);
+  padding: 188px 0;
 }
 
 .image-hero-container {
@@ -161,7 +162,6 @@ img {
   justify-content: center;
   align-items: center;
   row-gap: 48px;
-  padding: 188px 0;
 }
 .efsol-title {
   /* Effective Solutions for Your Business */
@@ -344,9 +344,7 @@ img {
 }
 
 .footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: inline-block;
   margin-left: 156px;
   margin-right: 1020px;
 }
@@ -397,8 +395,6 @@ img {
 }
 .pr-cards {
   background: var(--brand-color1);
-  border-bottom: 1px solid var(--brand-color5);
-  border-top: none;
   width: calc((100% - 48px) / 3);
 }
 
@@ -417,6 +413,8 @@ img {
   justify-content: flex-start;
   padding: 32px 16px;
   gap: 8px;
+  border: 1px solid var(--brand-color5);
+  border-top: none;
 }
 .cards-images {
   mix-blend-mode: normal;
