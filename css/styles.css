@@ -24,7 +24,6 @@ body {
   font-size: var(--brand-font-size1);
   font-weight: var(--brand-font-weight4);
   color: var(--brand-color4);
-  width: 1440px;
 }
 
 .link {
@@ -232,7 +231,6 @@ img {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 8px;
   width: calc((100% - 72px) / 4);
 }
 .header-three {
@@ -249,6 +247,7 @@ img {
 
 .feature-text {
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .header-two {
@@ -343,19 +342,13 @@ img {
   padding-bottom: 100px;
 }
 
-.footer-container {
-  display: inline-block;
-  margin-left: 156px;
-  margin-right: 1020px;
-}
-
 .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
 .foot-text {
   /* Text */
-
+  width: 264px;
   letter-spacing: 0.02em;
   color: var(--brand-color6);
 }
